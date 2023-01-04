@@ -1,15 +1,15 @@
 
-import "./style.css"
+import "./style.css";
 
-
+import logo from './../../assets/capa.svg'
 
 function CardGame () {
 
-
+// return logo;
 
     return `
     <article class="card-game">
-        <img src="../../images/capa.jpg" alt="Capa"/>
+        <img src="${logo}" alt="Capa">
     </article>
     `;
 
